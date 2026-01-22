@@ -1,0 +1,19 @@
+# Java
+out/
+*.class
+*.jar
+lib/
+
+# Config
+config.sh
+
+# Messages
+messages/
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
