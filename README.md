@@ -31,7 +31,7 @@ git push -u origin main
 1. GitHubリポジトリページの「Settings」タブをクリック
 2. 左メニューの「Pages」をクリック
 3. Source: `Deploy from a branch` を選択
-4. Branch: `main` を選択、フォルダ: `/public` を選択
+4. Branch: `main` を選択、フォルダ: `/ (root)` を選択
 5. 「Save」をクリック
 
 数分後、`https://YOUR_USERNAME.github.io/portfolio/` でサイトが公開されます！
@@ -58,13 +58,13 @@ git push -u origin main
 ## ✏️ カスタマイズ
 
 ### プロフィール情報の変更
-[public/index.html](public/index.html) を編集:
+[index.html](index.html) を編集:
 - 29行目: 名前
 - 44-46行目: プロフィール情報
 - 84, 89行目: SNSリンク（Instagram, GitHub）
 
 ### デザインの変更
-[public/styles.css](public/styles.css) を編集
+[styles.css](styles.css) を編集
 
 ### 変更の反映
 ```bash
